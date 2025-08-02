@@ -3,9 +3,14 @@ run = "npm run dev"
 
 [nix]
 channel = "stable-24_05"
+packages = ["python312Packages.uvicorn"]
 
 [deployment]
 run = ["sh", "-c", "npm run dev"]
+
+[[ports]]
+localPort = 6274
+externalPort = 8080
 
 [[ports]]
 localPort = 8787
