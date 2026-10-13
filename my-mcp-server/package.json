@@ -14,7 +14,7 @@
 	"dependencies": {
 		"@modelcontextprotocol/sdk": "1.17.0",
 		"agents": "^0.0.113",
-		"zod": "^3.25.67"
+		"zod": "^4.0.0"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^2.0.6",
